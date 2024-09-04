@@ -1,0 +1,40 @@
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    color: #333;
+  }
+  
+  .navList {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Menggunakan Flexbox untuk membuat item menu horizontal */
+    justify-content: center; /* Menengahkan item menu secara horizontal */
+    gap: 15px; /* Menambahkan jarak antar item menu */
+  }
+  
+  .navItem {
+    margin: 0; /* Hilangkan margin vertikal */
+  }
+  
+  .navLink {
+    display: block;
+    padding: 10px 15px;
+    background-color: #0070f3;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .navLink:hover {
+    background-color: #005bb5;
+  }
+  

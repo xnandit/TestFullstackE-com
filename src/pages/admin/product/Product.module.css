@@ -1,0 +1,117 @@
+/* /pages/admin/products/Product.module.css */
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.saveButton, .cancelButton {
+  padding: 10px 20px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+
+.saveButton:hover {
+  background-color: #005bb5;
+}
+
+.cancelButton {
+  background-color: #ff5c5c;
+}
+
+.cancelButton:hover {
+  background-color: #e60000;
+}
+
+.productList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.productItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.editButton, .deleteButton {
+  padding: 5px 10px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+
+.editButton:hover {
+  background-color: #005bb5;
+}
+
+.deleteButton {
+  background-color: #ff5c5c;
+}
+
+.deleteButton:hover {
+  background-color: #e60000;
+}
+
+/* Tambahkan di awal file Product.module.css dan ProductVariant.module.css */
+.backButton {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .backButton:hover {
+    background-color: #bbb;
+  }
+  

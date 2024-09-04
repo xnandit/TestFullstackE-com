@@ -1,0 +1,75 @@
+/* /pages/customer/products/ProductVariant.module.css */
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.variantGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.variantCard {
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.variantCard h2 {
+  margin-top: 0;
+  color: #0070f3;
+  font-size: 1.5em;
+}
+
+.variantCard p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.selectButton {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.selectButton:hover {
+  background-color: #005bb5;
+}
+
+.selected {
+  background-color: #005bb5;
+}
+
+.addToCartButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.addToCartButton:hover {
+  background-color: #218838;
+}
